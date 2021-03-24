@@ -1,0 +1,12 @@
+<templateSet group="Bootstrap 4">
+  <template name="bulmafield" value="&lt;div class=&quot;field&quot;&gt;&#10;    &lt;label for=&quot;$TITLE$&quot; class=&quot;label&quot;&gt;$LABEL$&lt;/label&gt;&#10;&#10;    &lt;div class=&quot;control&quot;&gt;&#10;        &lt;input type=&quot;text&quot; class=&quot;input&quot; name=&quot;$TITLE$&quot; placeholder=&quot;$LABEL$&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;$END$" description="Input Field for Bulma CSS Framework" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

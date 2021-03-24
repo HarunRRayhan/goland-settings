@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="65f98dd0-cf3b-4105-87b6-754eb6d16c70" name="HRX Labs FTP" url="https://hrxlabs.com/">
+        <fileTransfer host="ftp.harunrrayhan.com" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

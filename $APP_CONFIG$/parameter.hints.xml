@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\base_path(path)" />
+        <removed pattern="" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
