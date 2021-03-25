@@ -4,7 +4,7 @@
     <property name="created">2019-01-11T10:52:45</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.2.6.0.0</property>
-    <property name="modified">2021-03-25T11:22:24</property>
+    <property name="modified">2021-03-25T11:54:38</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -625,7 +625,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -659,7 +659,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -1268,20 +1268,20 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="b0bec5" />
-        <option name="BACKGROUND" value="1e272c" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="9688" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="9688" />
+        <option name="BACKGROUND" value="4299e1" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="b0bec5" />
-        <option name="BACKGROUND" value="546e7a" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="ed8936" />
       </value>
     </option>
     <option name="IVAR">
