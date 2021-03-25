@@ -4,7 +4,7 @@
     <property name="created">2019-01-11T10:52:45</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.2.6.0.0</property>
-    <property name="modified">2021-03-24T13:49:46</property>
+    <property name="modified">2021-03-25T11:22:24</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -14,7 +14,7 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
