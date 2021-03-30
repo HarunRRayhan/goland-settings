@@ -113,4 +113,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
 </keymap>
