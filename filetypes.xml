@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="hip.php" type="AUTO_DETECTED" />
       <mapping pattern="delete-selected" type="Blade" />
       <mapping pattern="pop-notifications.blade.php" type="Blade" />
       <mapping pattern="c188862d6e5112391cc3436f916eeea823b53e71" type="PLAIN_TEXT" />
