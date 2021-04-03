@@ -118,6 +118,5 @@
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="alt h" />
-    <keyboard-shortcut first-keystroke="meta g" second-keystroke="h" />
   </action>
 </keymap>
