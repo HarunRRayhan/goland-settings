@@ -1,6 +1,7 @@
 <application>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://soap.sforce.com/2006/04/metadata" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
+    <resource url="https://schema.org/ImageObject" location="$USER_HOME$/Library/Caches/JetBrains/PhpStorm2021.1/extResources/f9d9ccf1_ImageObject.html" />
     <resource url="urn:metadata.tooling.soap.sforce.com" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
   </component>
 </application>
