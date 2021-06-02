@@ -90,6 +90,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="sdk" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_connect.facebook.net_en_US_sdk.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_connect.facebook.net_en_US_sdk.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="trix" type="javaScript">
       <properties>
         <sourceFilesUrls>
