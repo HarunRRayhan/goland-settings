@@ -90,6 +90,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="howler" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_howler_2.2.1_howler.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_howler_2.2.1_howler.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="sdk" type="javaScript">
       <properties>
         <sourceFilesUrls>
