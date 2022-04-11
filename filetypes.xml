@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="image_library.yaml" type="AUTO_DETECTED" />
       <mapping pattern="hip.php" type="AUTO_DETECTED" />
       <mapping pattern="delete-selected" type="Blade" />
       <mapping pattern="pop-notifications.blade.php" type="Blade" />
@@ -15,6 +14,7 @@
       <mapping pattern="laracasts" type="PLAIN_TEXT" />
       <mapping ext="stub" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping pattern="image_library.yaml" type="YAML" />
       <mapping ext="lock" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
