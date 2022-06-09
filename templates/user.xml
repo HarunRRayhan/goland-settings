@@ -1,0 +1,40 @@
+<templateSet group="user">
+  <template name="met" value="public function $NAME$() &#10;{&#10;    $END$&#10;}" description="Public Method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pmet" value="protected function $NAME$() &#10;{&#10;    $END$&#10;}" description="Protected Methog" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bulmatextarea" value="&lt;div class=&quot;field&quot;&gt;&#10;    &lt;label for=&quot;$TITLE$&quot; class=&quot;label&quot;&gt;$LABEL$&lt;/label&gt;&#10;&#10;    &lt;div class=&quot;control&quot;&gt;&#10;        &lt;textarea class=&quot;textarea&quot; name=&quot;$TITLE$&quot; placeholder=&quot;$LABEL$&quot;&gt;&lt;/textarea&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;$END$" description="Bulma Textarea" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="bulmasubmit" value="&lt;div class=&quot;field&quot;&gt;&#10;    &lt;div class=&quot;control&quot;&gt;&#10;        &lt;button type=&quot;submit&quot; class=&quot;button is-link&quot;&gt;$END$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Bulma Submit Button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="enqs" value="function $NAME$() {&#10;&#9;wp_enqueue_script('$TITLE$', $LINK$, $END$);&#10;}&#10;add_action('wp_enqueue_scripts', '$NAME$');" description="WordPress Enqu" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

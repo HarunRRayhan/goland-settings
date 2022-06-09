@@ -1,0 +1,50 @@
+<templateSet group="PHP">
+  <template name="pluginhead" value="/*&#10;Plugin Name:  $PLUGIN_NAME$&#10;Plugin URI:   $PLUGIN_URI$&#10;Description:  $PLUGIN_DESC$&#10;Version:      $PLUGIN_VERSION$&#10;Author:       $AUTHOR$&#10;Author URI:   $AUTHOR_URI$&#10;License:      GPL2&#10;License URI:  https://www.gnu.org/licenses/gpl-2.0.html&#10;Text Domain:  $TEXT_DOMAIN$&#10;Domain Path:  /languages&#10;&#10;$PLUGIN_NAME$ is free software: you can redistribute it and/or modify&#10;it under the terms of the GNU General Public License as published by&#10;the Free Software Foundation, either version 2 of the License, or&#10;any later version.&#10; &#10;$PLUGIN_NAME$ is distributed in the hope that it will be useful,&#10;but WITHOUT ANY WARRANTY; without even the implied warranty of&#10;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#10;GNU General Public License for more details.&#10; &#10;You should have received a copy of the GNU General Public License&#10;along with $PLUGIN_NAME$. If not, see {URI to Plugin License}.&#10;*/" description="Plugin Decalaration Text" toReformat="false" toShortenFQNames="true">
+    <variable name="PLUGIN_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PLUGIN_URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PLUGIN_DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PLUGIN_VERSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHOR_URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT_DOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+      <option name="PHP String Literal" value="true" />
+    </context>
+  </template>
+  <template name="cmb2group" value="function $FUNCTION_NAME$() {&#10;    $prefix = '$PREFIX_TEXT$';&#10;    $cmb = new_cmb2_box( array(&#10;        'id'           =&gt; $prefix . '$METABOX_ID$',&#10;        'title'        =&gt; __( 'Pricing Table', '$TEXTDOMAIN$' ),&#10;        'object_types' =&gt; array( $POST_TYPE$ ),&#10;        'context'      =&gt; 'normal',&#10;        'priority'     =&gt; 'default',&#10;    ) );&#10;    $group = $cmb-&gt;add_field( array(&#10;        'name' =&gt; __( 'Pricing Table', '$TEXTDOMAIN$' ),&#10;        'id'   =&gt; $prefix . 'pricing_table',&#10;        'type' =&gt; 'group',&#10;    ) );&#10;    $cmb-&gt;add_group_field( $group, array(&#10;        'name'       =&gt; __( 'Caption', '$TEXTDOMAIN$' ),&#10;        'id'         =&gt; $prefix . 'pricing_caption',&#10;        'type'       =&gt; 'text',&#10;    ) );&#10;    $cmb-&gt;add_group_field( $group, array(&#10;        'name'       =&gt; __( 'Pricing Option', '$TEXTDOMAIN$' ),&#10;        'id'         =&gt; $prefix . 'pricing_option',&#10;        'type'       =&gt; 'text',&#10;        'repeatable' =&gt; true&#10;    ) );&#10;    $cmb-&gt;add_group_field( $group, array(&#10;        'name'       =&gt; __( 'Price', '$TEXTDOMAIN$' ),&#10;        'id'         =&gt; $prefix . 'price',&#10;        'type'       =&gt; 'text',&#10;    ) );&#10;}&#10;add_action( 'cmb2_init', '$FUNCTION_NAME$' );" description="Group with Repeatable fields for CM2" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PREFIX_TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METABOX_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXTDOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="POST_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+      <option name="PHP String Literal" value="true" />
+    </context>
+  </template>
+  <template name="wp_print_hooks" value="add_action( '$HOOK_TO_SHOW$', '$FUNCTION_NAME$' );&#10;function $FUNCTION_NAME$() {&#10;&#9;global $wp_filter;&#10;&#10;&#9;$hook_name = '$HOOK_NAME$';&#10;&#10;&#9;if(isset($wp_filter[$hook_name])){&#10;&#9;&#9;echo '&lt;pre&gt;';&#10;&#9;    print_r( $wp_filter[$hook_name] );&#10;&#9;    echo '&lt;/pre&gt;';&#10;&#9;}&#10;}" description="Debug All Function from a/an Action/Filter hook" toReformat="false" toShortenFQNames="true">
+    <variable name="HOOK_TO_SHOW" expression="" defaultValue="wp_footer" alwaysStopAt="true" />
+    <variable name="FUNCTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HOOK_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="testclass" value="&#10;namespace Tests\Feature;&#10;&#10;use Tests\TestCase;&#10;use Illuminate\Foundation\Testing\DatabaseMigrations;&#10;&#10;Class $FILE_NAME$ extends TestCase {&#10;    use DatabaseMigrations;&#10;    &#10;    /** @test */&#10;    public function it_() {&#10;    &#10;    }&#10;&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tes" value="/** @test */&#10;public function $NAME$()&#10;{&#10;    $END$&#10;}" description="Test Method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
