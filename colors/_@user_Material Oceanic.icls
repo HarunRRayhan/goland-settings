@@ -4,7 +4,7 @@
     <property name="created">2019-01-11T10:52:45</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.2.6.0.0</property>
-    <property name="modified">2022-04-22T11:55:48</property>
+    <property name="modified">2022-06-09T08:03:20</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -43,7 +43,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e88d" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="FILESTATUS_MERGED" value="c792ea" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
@@ -825,10 +825,6 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-    <option name="ERL_ATOM" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="ERL_MACRO" baseAttributes="DEFAULT_STATIC_FIELD" />
-    <option name="ERL_RECORDS" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="ERL_VARIABLES" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff5370" />
