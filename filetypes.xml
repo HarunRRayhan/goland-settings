@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="hip.php" type="AUTO_DETECTED" />
-      <mapping pattern="delete-selected" type="Blade" />
-      <mapping pattern="pop-notifications.blade.php" type="Blade" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern="demo" type="PLAIN_TEXT" />
       <mapping pattern=".vercelignore" type="PLAIN_TEXT" />
@@ -19,10 +17,10 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
-      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
-      <removed_mapping pattern=".vercelignore" approved="true" type="Vercel File" />
+      <mapping pattern="delete-selected" type="Blade" />
+      <mapping pattern="pop-notifications.blade.php" type="Blade" />
     </extensionMap>
   </component>
 </application>
