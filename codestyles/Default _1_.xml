@@ -1,6 +1,9 @@
 <code_scheme name="Default (1)" version="173">
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <option name="FORMATTER_TAGS_ACCEPT_REGEXP" value="true" />
+  <GoCodeStyleSettings>
+    <option name="LOCAL_PACKAGE_PREFIXES" />
+  </GoCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
