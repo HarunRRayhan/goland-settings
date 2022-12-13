@@ -16,5 +16,9 @@
     <entry key="mac.editor.thumb.darcula.fill.max" value="163" />
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="ide.tree.ui.experimental" value="false" />
+    <entry key="ide.editor.tab.selection.animation" value="true" />
+    <entry key="ide.new.editor.tabs.vertical.borders" value="true" />
+    <entry key="editor.focus.mode.color.light" value="415967" />
+    <entry key="editor.focus.mode.color.dark" value="415967" />
   </component>
 </application>
